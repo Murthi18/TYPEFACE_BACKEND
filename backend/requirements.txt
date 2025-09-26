@@ -1,0 +1,9 @@
+Flask==3.0.3
+Flask-Cors==4.0.1
+pymongo==4.8.0
+python-dotenv==1.0.1
+pytesseract
+opencv-python-headless
+pdfplumber
+pdf2image
+pypdf
