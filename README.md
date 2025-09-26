@@ -3,8 +3,19 @@
 Flask + MongoDB backend for **TypeFace Personal Finance**.  
 Handles authentication, transactions, PDF/receipt parsing, and exposes REST APIs consumed by the frontend.
 
----
+TODO: testing to be furnished and improved, is patchy for now
 
+To run tests:
+``` bash
+cd backend
+pytest
+```
+
+NOTE:
+``` bash
+And ensure you change the variable name email's value in tests/test_auth.py of the function test_signup_then_me_and_logout everytime you run the tests
+```
+---
 ## 📂 Project Structure
 
 ```bash
@@ -22,7 +33,10 @@ backend/
 │ ├── auth.py # Signup/Login/Logout, session management
 │ ├── imports.py # OCR & PDF parsing for receipts/statements
 │ └── transactions.py# CRUD for financial transactions
-│
+│── tests/ # Flask Blueprints
+│ ├── test_auth.py # test for authentication and user related functionality
+│ ├── test_imports.py # test for OCR & PDF parsing for receipts/statements
+│ └── tests_transactions.py # test for CRUD for financial transactions
 ├── utils/ # Helper modules
 │ ├── ocr_receipt.py # OCR-based receipt parser
 │ └── parse_pdf.py # Tabular PDF parser
