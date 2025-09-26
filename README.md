@@ -13,7 +13,8 @@ pytest
 
 NOTE:
 ``` bash
-And ensure you change the variable name email's value in tests/test_auth.py of the function test_signup_then_me_and_logout everytime you run the tests
+And ensure you change the variable name email's value in tests/test_auth.py 
+of the function test_signup_then_me_and_logout everytime you run the tests
 ```
 ---
 ## 📂 Project Structure
