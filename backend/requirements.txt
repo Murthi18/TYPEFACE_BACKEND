@@ -7,3 +7,7 @@ opencv-python-headless
 pdfplumber
 pdf2image
 pypdf
+pytest>=8.2
+pytest-cov>=5.0
+mongomock>=4.2
+
